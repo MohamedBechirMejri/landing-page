@@ -9,6 +9,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
 
-  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
