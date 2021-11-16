@@ -44,9 +44,10 @@ body {
 
   .section-1 {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     margin-top: 4em;
+    gap: 2em;
 
     .description {
       display: flex;
@@ -74,6 +75,14 @@ body {
         font-weight: 900;
         font-size: 1.1em;
       }
+    }
+    .image {
+        background-color: #6d747e;
+        flex: 1 0 auto;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   }
 
