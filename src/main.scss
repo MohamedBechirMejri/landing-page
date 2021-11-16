@@ -8,7 +8,10 @@ body {
   align-items: center;
   padding-left: 15vw;
   padding-right: 15vw;
-
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 
   header {
     display: flex;
@@ -22,26 +25,31 @@ body {
       gap: 1em;
     }
   }
+
   .main {
     display: flex;
     flex-direction: column;
   }
+
   .section-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .section-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .section-3 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2em;
   }
+
   .section-4 {
     display: flex;
     justify-content: center;
