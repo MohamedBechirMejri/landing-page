@@ -18,11 +18,22 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-top: 1em;
 
+    .logo {
+      font-size: 28px;
+      margin: 0;
+    }
     .header-links {
       display: flex;
       align-items: center;
       gap: 1em;
+
+      a {
+        text-decoration: none;
+        color: #e5e7eb;
+        font-size: 18px;
+      }
     }
   }
 
@@ -35,6 +46,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 4em;
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 450px;
+
+      .title {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 0;
+      }
+      .subtext {
+        font-size: 18px;
+        color: #e5e7eb;
+      }
+      button {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        background-color: #3882f6;
+        color: #f9faf8;
+        border-style: none;
+        width: 130px;
+        font-weight: 900;
+        font-size: 1.1em;
+      }
+    }
   }
 
   .section-2 {
