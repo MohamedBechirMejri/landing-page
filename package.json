@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-env": "^7.19.1",
     "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
@@ -34,7 +34,7 @@
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1",
     "webpack-dashboard": "^3.3.6",
-    "webpack-dev-server": "^4.5.0",
+    "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
